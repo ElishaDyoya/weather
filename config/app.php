@@ -55,9 +55,9 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://localhost'),
+    'url' => ('https://integrated-marten-ditassignment-d704124b.koyeb.app/'),
 
-    'asset_url' => env('APP_URL'),
+    'asset_url' =>('https://integrated-marten-ditassignment-d704124b.koyeb.app/'),
 
     /*
     |--------------------------------------------------------------------------

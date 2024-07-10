@@ -14,7 +14,13 @@ class Page extends Component
 
 
     public function mount(){
-        $this->data = Device::all();
+        $this->data = Device::latest()->get();
+
+    }
+
+    public function mountData(){
+        $this->data = Device::latest()->get();
+
     }
 
 }

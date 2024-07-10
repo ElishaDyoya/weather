@@ -25,10 +25,10 @@
                     <td>{{ $Data->a }}</td>
                     <td>@if($Data->r ==true)not raining @else raining @endif</td>
                     <td>
-                        {{ \Carbon\Carbon::parse($data->created_at)->isoFormat('h:mm:ss A') }}
+                        {{ \Carbon\Carbon::parse($Data->created_at)->isoFormat('h:mm:ss A') }}
                     </td>
                     <td>
-                        {{ \Carbon\Carbon::parse($data->created_at)->isoFormat('dddd, MMMM Do YYYY') }}
+                        {{ \Carbon\Carbon::parse($Data->created_at)->isoFormat('dddd, MMMM Do YYYY') }}
 
                     </td>
                 </tr>

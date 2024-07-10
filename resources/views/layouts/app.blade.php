@@ -277,7 +277,7 @@
         }));
         function updateChart() {
                     $.ajax({
-                        url: "{{ route('display') }}",
+                        url: "https://integrated-marten-ditassignment-d704124b.koyeb.app/api/data/display",
                         type: 'GET',
                         dataType: 'json',
                         headers: {

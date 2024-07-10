@@ -251,7 +251,7 @@
         const chartRpm = Highcharts.chart('container-rpm', Highcharts.merge(gaugeOptions, {
             yAxis: {
                 min: 0,
-                max: 200,
+                max: 15,
                 title: {
                     text: 'WIND SPEED'
                 }

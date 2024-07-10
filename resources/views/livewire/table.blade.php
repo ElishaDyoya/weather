@@ -1,5 +1,5 @@
 <div>
-    <table class="table table-striped table-sm"  wire:poll.100ms>
+    <table class="table table-striped table-sm"  wire:poll.100ms="mountData">
         <thead>
    <tr>
     <th>Parameters</th>
